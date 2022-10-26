@@ -3,9 +3,23 @@
     src: url(./fonts/Blackthorn-axq6a.ttf) format("truetype");
 }
 
+.community {
+    text-decoration: none;
+    color: #ff0000;
+    margin: 10px;
+}
+
+.community-container {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 body {
     background-image: url("chaoswallpaper.png");
     cursor: url("chaoswallpaper.png"), auto;
+    cursor: url(LKad-13_arrow.cur), pointer;
 }
 
 .chaos-font {
@@ -16,6 +30,7 @@ body {
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px #ff0000;
+    margin-top: 30px;
 }
 
 .gif {
